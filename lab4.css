@@ -1,0 +1,79 @@
+/*
+filename: lab04.css
+author: Mohammad Fatin Anjum Fahim
+description: Styling for lab04.html
+*/
+
+/* Universal selector: font + base colour */
+* {
+  font-family: Calibri, sans-serif;
+  color: #2F4F4F;
+}
+body {
+  margin-left: 100px;
+}
+/* Step 3: h1 style */
+h1 {
+  color: purple;
+  
+}
+
+/* Heading 2 */
+h2 {
+  color: rgb(0, 128, 128);
+}
+
+/* Group selectors */
+aside, footer {
+  font-style: italic;
+}
+
+h1, h2, h3 {
+  font-family: Arial, sans-serif;
+}
+
+/* Table styling */
+table, th, td {
+  border: 1px solid black;
+  
+}
+
+/* ID selectors */
+#images {
+  text-align: center;
+}
+
+#heading3{
+  color: red;
+}
+
+/* Class selectors */
+.special {
+  color: darkorange;
+  font-weight: bold;
+}
+
+.rightalign {
+  text-align: right;
+}
+
+/* Contextual selectors */
+nav a {
+  text-decoration: none;
+  padding: 0.2em 0.6em;
+  border: 4px solid #ccc;
+}
+
+ol ul {
+  list-style-type: square;
+}
+
+/* Pseudo-classes */
+aside:hover {
+  display: none;
+}
+
+nav a:hover {
+  background-color: lightblue;
+  border-color: darkblue;
+}
